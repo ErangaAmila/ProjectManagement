@@ -182,6 +182,7 @@ function onProjectDeleteComplete(response, status) {
 	}
 }
 
+//================DELETE==========================
 function onProjectDeleteComplete(response, status) {
 	if (status == "success") {
 		var resultSet = JSON.parse(response);
